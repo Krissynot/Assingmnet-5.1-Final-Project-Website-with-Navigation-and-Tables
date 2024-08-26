@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Kristina Jones-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+    <link href="string.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <!--the text class define the node that display the text-->
+    <!--Had to learn this class, this mean grouping elements into semantic and visually alike spaces on the page, it make easier to understand-->
+    <header>
+      <h1>Palindrome Checker</h1>
+      <p>A palindrome is a word or number that is the same front to back.</p>
+    </header>
+    <div class="inputs">
+        <!--I had to watch several videos along with the class class to finally somewhat understand what is happening-->
+      <input type="text" spellcheck="false" placeholder="Enter number">
+      <button>Check it</button>
+    </div>
+    <p class="info-txt"></p>
+  </div>
+  <script src="script.js"></script>
+  <!--I had to make another css and js for this one at first because i had to restart all of the progress of the css and js-->
+</body>
+</html>
